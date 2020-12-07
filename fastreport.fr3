@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.2.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44171,8706099074" ReportOptions.Description.Text="" ReportOptions.LastChange="44171,8734259028" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxDBDataset1"/>
+  </Datasets>
+  <Styles>
+    <item Name="Title" Font.Charset="1" Font.Color="16777215" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="8421504"/>
+    <item Name="Header" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0"/>
+    <item Name="Group header" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="16053492"/>
+    <item Name="Data" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0"/>
+    <item Name="Group footer" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0"/>
+    <item Name="Header line" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="8" Frame.Width="2"/>
+  </Styles>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="26,45671" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Align="baWidth" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="22,67718" Font.Charset="1" Font.Color="16777215" Font.Height="-16" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="8421504" HAlign="haCenter" ParentFont="False" Style="Title" VAlign="vaCenter" Text="Report"/>
+    </TfrxReportTitle>
+    <TfrxGroupHeader Name="GroupHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="26,45671" Left="0" Top="105,82684" Width="718,1107" Condition="frxDBDataset1.&#34;estend&#34;">
+      <TfrxMemoView Name="Memo2" Align="baWidth" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="22,67718" DataField="estend" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="16053492" ParentFont="False" Style="Group header" VAlign="vaCenter" Text="[frxDBDataset1.&#34;estend&#34;]"/>
+    </TfrxGroupHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="113,3859" Left="0" Top="154,96073" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="0" Top="0" Width="134,37013" Height="18,89765" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Style="Header" Text="Nome do Paciente"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="134,37013" Top="0" Width="887" Height="18,89765" DataField="nompac" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Style="Data" Text="[frxDBDataset1.&#34;nompac&#34;]"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="0" Top="18,89765" Width="134,37013" Height="18,89765" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Style="Header" Text="Data de Nascimento"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="134,37013" Top="18,89765" Width="78" Height="18,89765" DataField="datpac" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Style="Data" Text="[frxDBDataset1.&#34;datpac&#34;]"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="0" Top="37,7953" Width="134,37013" Height="18,89765" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Style="Header" Text="CPF do Paciente"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="134,37013" Top="34,01577" Width="144" Height="18,89765" DataField="cpfpac" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Style="Data" Text="[frxDBDataset1.&#34;cpfpac&#34;]"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="0" Top="56,69295" Width="134,37013" Height="18,89765" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Style="Header" Text="Situação ao COVID"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="134,37013" Top="52,91342" Width="11" Height="18,89765" DataField="sitpac" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Style="Data" Text="[frxDBDataset1.&#34;sitpac&#34;]"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="0" Top="75,5906" Width="134,37013" Height="18,89765" Font.Charset="1" Font.Color="128" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Style="Header" Text="Cidade do Paciente"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="134,37013" Top="75,5906" Width="887" Height="18,89765" DataField="cidend" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Style="Data" Text="[frxDBDataset1.&#34;cidend&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupFooter Name="GroupFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="0" Left="0" Top="291,02381" Width="718,1107"/>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="26,45671" Left="0" Top="351,49629" Width="718,1107">
+      <TfrxMemoView Name="Memo13" Align="baWidth" AllowVectorExport="True" Left="0" Top="0" Width="718,1107" Height="0" Frame.Typ="4" Frame.Width="2" Text=""/>
+      <TfrxMemoView Name="Memo14" AllowVectorExport="True" Left="0" Top="1" Width="0" Height="22,67718" AutoWidth="True" Frame.Typ="0" Text="[Date] [Time]"/>
+      <TfrxMemoView Name="Memo15" Align="baRight" AllowVectorExport="True" Left="642,5201" Top="1" Width="75,5906" Height="22,67718" Frame.Typ="0" HAlign="haRight" Text="Page [Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

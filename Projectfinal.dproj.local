@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/06 20:49:24.000.151,=C:\Users\Jeferson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/22 13:31:17.000.318,=C:\Users\Jeferson\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/22 13:32:16.000.679,C:\Users\Jeferson\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\dsv\wkspii\Trabalho corona\Unitcadastro.dfm</Transaction>
+    <Transaction>2020/11/22 13:32:16.000.679,C:\Users\Jeferson\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\dsv\wkspii\Trabalho corona\Unitcadastro.pas</Transaction>
+    <Transaction>2020/11/22 13:32:37.000.565,C:\Users\Jeferson\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\dsv\wkspii\Trabalho corona\Projectfinal.dproj</Transaction>
+    <Transaction>2020/11/22 13:34:03.000.202,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/22 13:34:16.000.317,D:\dsv\wkspii\Trabalho corona\Unit1.dfm=D:\dsv\wkspii\Trabalho corona\UnitDM.dfm</Transaction>
+    <Transaction>2020/11/22 13:34:16.000.317,D:\dsv\wkspii\Trabalho corona\Unit1.pas=D:\dsv\wkspii\Trabalho corona\UnitDM.pas</Transaction>
+    <Transaction>2020/11/22 14:32:03.000.533,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/23 18:56:40.000.573,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 19:07:48.000.794,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 19:08:29.000.121,D:\dsv\wkspii\Trabalho corona\UnitSintomas.pas=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 20:20:06.000.461,D:\dsv\wkspii\Trabalho corona\UnitSintomas.pas=</Transaction>
+    <Transaction>2020/11/24 20:20:11.000.973,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 21:06:20.000.041,D:\dsv\wkspii\Trabalho corona\Unit1.dfm=D:\dsv\wkspii\Trabalho corona\UnitSintomas.dfm</Transaction>
+    <Transaction>2020/11/24 21:06:20.000.041,D:\dsv\wkspii\Trabalho corona\Unit1.pas=D:\dsv\wkspii\Trabalho corona\UnitSintomas.pas</Transaction>
+    <Transaction>2020/11/25 20:16:15.000.031,=D:\dsv\wkspii\Trabalho corona\Unit2.pas</Transaction>
+    <Transaction>2020/11/25 20:16:19.000.409,=D:\dsv\wkspii\Trabalho corona\Unit3.pas</Transaction>
+    <Transaction>2020/11/25 20:16:42.000.091,D:\dsv\wkspii\Trabalho corona\UnitPrincipal.pas=D:\dsv\wkspii\Trabalho corona\Unit3.pas</Transaction>
+    <Transaction>2020/11/25 20:16:42.000.091,D:\dsv\wkspii\Trabalho corona\UnitPrincipal.dfm=D:\dsv\wkspii\Trabalho corona\Unit3.dfm</Transaction>
+    <Transaction>2020/11/25 20:16:52.000.224,D:\dsv\wkspii\Trabalho corona\UnitRelatorios.pas=D:\dsv\wkspii\Trabalho corona\Unit2.pas</Transaction>
+    <Transaction>2020/11/25 20:16:52.000.224,D:\dsv\wkspii\Trabalho corona\UnitRelatorios.dfm=D:\dsv\wkspii\Trabalho corona\Unit2.dfm</Transaction>
+    <Transaction>2020/11/25 21:26:08.000.612,=D:\dsv\wkspii\Trabalho corona\Unit4.pas</Transaction>
+    <Transaction>2020/11/25 21:29:44.000.777,D:\dsv\wkspii\Trabalho corona\Unit4.pas=D:\dsv\wkspii\Trabalho corona\UnitLogin.pas</Transaction>
+    <Transaction>2020/11/25 21:29:44.000.777,D:\dsv\wkspii\Trabalho corona\Unit4.dfm=D:\dsv\wkspii\Trabalho corona\UnitLogin.dfm</Transaction>
+    <Transaction>2020/12/06 16:23:17.000.811,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/12/06 16:23:31.000.281,=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/12/06 16:23:50.000.852,D:\dsv\wkspii\Trabalho corona\Unitendereco.pas=D:\dsv\wkspii\Trabalho corona\Unit1.pas</Transaction>
+    <Transaction>2020/12/06 16:23:50.000.852,D:\dsv\wkspii\Trabalho corona\Unitendereco.dfm=D:\dsv\wkspii\Trabalho corona\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
