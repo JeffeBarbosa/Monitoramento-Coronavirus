@@ -1,0 +1,101 @@
+/*1) Relacione o código e nome de pacientes
+com idades maiores que 40, que apresentaram
+diarreia. Relacione a consulta em ordem
+ascendente de nome;*/
+
+select
+	p.codpac ,
+	p.nompac
+from
+	paciente p
+inner join sintoma s on s.codsin = p.codsin
+where
+ extract(year from age(p.datpac)) = 20 and s.sitsin  LIKE '%diarreia%'
+order by
+	p.nompac asc;
+
+
+--2)
+--Relacione o nome do paciente, cep da
+--cidade de residência de pacientes do sexo
+--masculino, residentes nos municípios de
+--Maravilha, Descanso, Pinhalzinho, Chapecó e
+--Itapiranga que apresentaram sintomas e foram
+--positivados com covid. Relacione o relatório
+--pelo cep da cidade descendente e o nome do
+--paciente ascendente
+
+--select e.cepend,e.cidend 
+--from endereco e 
+--group by cepend = '89874-000', '89910-000','89870-000','89801-025', '89896-000'
+
+
+select
+	p.nompac,
+	e.cepend
+from
+	paciente p
+inner join endereco e on
+	e.codpac = p.codpac
+inner join sintoma s on
+	s.codsin = p.codsin
+where
+	p.sexpac = 'M'
+	and e.cidend in('Maravilha',
+	'Descanso',
+	'Pinhalzinho',
+	'Chapecó',
+	'Itapiranga')
+	and s.sitsin != null
+	and s.covsin = 'P'
+order by
+	e.cepend desc,
+	p.nompac asc;
+
+
+--3)Relacione o cep da cidade, nome da cidade
+--e quantidade de casos suspeitos de covid para
+--as cidades com 5 à 10 casos. Ordene o
+--relatório da cidade com mais casos suspeitos
+--para a cidade com menos casos suspeitos;
+
+
+select
+	e.cepend,
+	e.cidend,
+	count(s.codsin) as quantidade
+from
+	endereco e
+inner join paciente p on
+	p.codpac = e.codpac
+inner join sintoma s on
+	s.codsin = p.codsin
+where
+	s.sitsin = 'S'
+group by
+	having count(e.cepend) >= 5 and count(e.cidend) <= 10
+
+--4)Relacione a idade e quantidade de casos
+--positivos de covid por idade. Somente idades
+--com mais de 20 casos. Ordene o relatório pela
+--idade com menos casos para a idade com
+--mais casos
+
+select
+	extract(year
+from
+	age(p.datpac)) as idade,
+	count(s.codsin) as quantidade_casos
+from
+	paciente p
+inner join sintoma s on
+	s.codsin = p.codsin
+where
+	s.sitsin = 'P'
+group by
+	p.datpac,
+	s.codsin 
+	
+	
+
+
